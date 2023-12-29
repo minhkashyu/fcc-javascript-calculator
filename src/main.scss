@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', 'Lato', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+$font-size-base: 1.2rem;
+$input-btn-font-size: 1.2rem;
+
+@import "bootstrap/scss/bootstrap.scss";
