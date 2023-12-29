@@ -10,5 +10,6 @@ test("renders learn react link", () => {
     </Provider>,
   )
 
-  // expect(getByText(/Drum Machine/i)).toBeInTheDocument()
+  // eslint-disable-next-line testing-library/prefer-screen-queries
+  expect(getByText(/Minh Ta/i)).toBeInTheDocument()
 })

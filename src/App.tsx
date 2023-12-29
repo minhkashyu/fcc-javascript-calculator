@@ -3,6 +3,8 @@ import React from "react"
 import Button from "./features/calculator/Button"
 import Display from "./features/calculator/Display"
 import Formula from "./features/calculator/Formula"
+
+import Header from "./features/Header"
 import Footer from "./features/Footer"
 
 import { formulaValues } from "./features/calculator/calculatorSlice"
@@ -10,8 +12,10 @@ import { formulaValues } from "./features/calculator/calculatorSlice"
 function App() {
   return (
     <div className="App container">
+      <Header />
+
       <div
-        className="calculator bg-dark text-white p-2 mx-auto mt-5 rounded-3"
+        className="calculator bg-dark text-white p-2 mx-auto rounded-3"
         style={{ width: 300 }}
       >
         <Formula />
