@@ -11,7 +11,7 @@ import { formulaValues } from "./features/calculator/calculatorSlice"
 
 function App() {
   return (
-    <div className="App container">
+    <div className="App container py-3">
       <Header />
 
       <div
